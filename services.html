@@ -1,0 +1,231 @@
+<!-- I have already made navigation bar so please watch part 1 of this series I am just going to copy all the code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Ladies Parlour</title>
+
+    <!-- adding css  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- about css  -->
+    <link rel="stylesheet" href="./css/services.css">
+
+    <!-- mediaQuery css  -->
+    <link rel="stylesheet" href="./css/MediaQuery.css">
+
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/7a6c6b42a6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="/index.html" class="logo">RK Beauty Salon</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#" id="NavNum">+91 9326652174</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="sectionFirst">
+        <h1>Services</h1>
+
+        <!-- transparent Img -->
+        <section class="transform-img">
+            <img src="./img/background180.svg" alt="">
+        </section>
+    </section>
+
+
+    <!-- section second  -->
+    <section class="aboutServices">
+        <div class="ser-litText">Choose From Collection</div>
+        <p class="ser-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ipsum?</p>
+
+        <div class="ser-box">
+            <div class="box">
+                <div class="img">
+                    <img src="./img/nailart_1.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+                    <div class="ser-name">Clean Nail Art</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/haircut_2.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Hair Styling</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/cosmetics_4.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Makeup</div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/botox_6.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Authorized Botox</div>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="img">
+                    <img src="./img/nailart_1.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+                    <div class="ser-name">Manicure & pedicure</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./img/haircut_2.jpg" alt="">
+                </div>
+                <div class="boxinfo">
+
+                    <div class="ser-name">Hair Coloring</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- discount section  -->
+    <section class="DiscountSection">
+
+        <div class="img">
+            <img src="./img/25off.png" alt="">
+        </div>
+
+        <div class="textinfo">
+            <h2>Book Your Appointment Now And Get 25% Off</h2>
+            <p>Awesome Monsoon Sale - 25% Off on All Professional Make Up, Minimum booking Amount INR 1199</p>
+        </div>
+
+        <a href="https://wa.link/k81drc">BOOK AN APPINTMENT</a>
+    </section>
+
+    <!-- ----slider----- -->
+    <section class="imgslidertext">
+        <div class="imgslider">
+            <img src="./img/bestbrindalOffer1.jpg" alt="" class="slide">
+            <img src="./img/bestbrindalOffer2.jpg" alt="" class="slide">
+            <img src="./img/bestbrindalOffer3.jpg" alt="" class="slide">
+
+            <i class="fa-solid fa-chevron-left prev" onclick="goPrev()"></i>
+            <i class="fa-solid fa-chevron-right next" onclick="goNext()"></i>
+        </div>
+
+        <div class="slideText">
+            <div class="st-heading">The Best Bridal Makeup Offer</div>
+            <p class="lit-text">Book now and get flat 30% discount on booking of minimum INR 2000</p>
+
+            <div class="lit-service">
+                <div class="textinfo">
+                    <div class="ti-head" >Pre-Wedding Photo shoot</div>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head" >The Engagement Day</div>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head" >The Grand Wedding Day</div>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head" >Normal Makeup</div>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head" >Festival Makeup</div>
+                </div>
+                <div class="textinfo">
+                    <div class="ti-head" >Any Function Makeup</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="beforefooter">
+        <div class="box">
+            <div class="logo">RK Ladies Parlour</div>
+            <div class="bf-text">Renu Kahar</div>
+            <p class="para">RK Ladies Parlour is a women-only beauty destination dedicated to delivering high-quality beauty and wellness services in a relaxing, welcoming environment. From expert makeup and hairstyling to skincare and spa treatments, we’re here to help you look and feel your best. Experience personalized care, professional service, and a touch of luxury at RK Ladies Parlour.</p>
+
+            <div class="bf-text">Subscribe For Offers</div>
+
+            <div class="subscribe">
+                <input type="text" name="" id="">
+                <button class="btn">subscribe</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bf-text">Quick Links</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./protfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div class="bf-text">Follow Us</div>
+            <div class="icons">
+                <a href="#" class="fa-brands fa-facebook-f"></a>
+                <a href="#" class="fa-brands fa-google"></a>
+                <a href="#" class="fa-brands fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="bf-text">Say Hi! </div>
+            <ul class="SayHi">
+                <li>renukahar129@gmail.com</li>
+            </ul>
+
+            <div class="bf-text">Call Us</div>
+            <ul class="SayHi">
+                <li>Phone : +91 9326652174</li>
+            </ul>
+
+            <div class="bf-text">Find Us</div>
+
+            <div class="address">
+                Kandivali New Link Road, Mumbai Maharashtra, 400067
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <footer>
+        <div class="fbox">Copyright &copy; 2024 RK Ladies Parlour</div>
+        <div class="fbox">Powered By RK Ladies Parlour</div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
